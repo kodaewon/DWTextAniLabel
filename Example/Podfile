@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DWTextAniLabel_Example' do
+  pod 'DWTextAniLabel', :path => '../'
+
+  target 'DWTextAniLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
